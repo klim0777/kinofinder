@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="klim.free.developer.kinofinder.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+        <!-- View that will be hidden when video goes fullscreen -->
+        <RelativeLayout
+            android:id="@+id/nonVideoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <klim.free.developer.kinofinder.VideoEnabledWebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <!-- View where the video will be shown when video goes fullscreen -->
+        <RelativeLayout
+            android:id="@+id/videoLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

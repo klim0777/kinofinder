@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">KinoFinder</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="loading_video">Loading video…</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="horrors">Ужасы</string>
+    <string name="fantasy">Фэнтэзи</string>
+    <string name="fantastic">Фантастика</string>
+    <string name="triller">Триллер</string>
+    <string name="drama">Драма</string>
+    <string name="boeviki">Боевики</string>
+    <string name="melodrama">Мелодрама</string>
+    <string name="child">Детские</string>
+    <string name="comedy">Комедии</string>
+    <string name="fun">Юмор</string>
+</resources>

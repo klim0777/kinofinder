@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/horrors"
+            android:title="@string/horrors" />
+        <item
+            android:id="@+id/fantasy"
+            android:title="@string/fantasy"/>
+        <item
+            android:id="@+id/fantastic"
+            android:title="@string/fantastic" />
+        <item
+            android:id="@+id/triller"
+            android:title="@string/triller" />
+        <item
+            android:id="@+id/drama"
+            android:title="@string/drama" />
+        <item
+            android:id="@+id/boeviki"
+            android:title="@string/boeviki" />
+        <item
+            android:id="@+id/melodrama"
+            android:title="@string/melodrama" />
+        <item
+            android:id="@+id/child"
+            android:title="@string/child" />
+        <item
+            android:id="@+id/comedy"
+            android:title="@string/comedy" />
+        <item
+            android:id="@+id/fun"
+            android:title="@string/fun" />
+    </group>
+
+
+</menu>
